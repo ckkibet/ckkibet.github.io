@@ -86,7 +86,7 @@ body {
 }
 #middle h1 {
   color: rgb(255, 50, 50);
-  font-size: 70px;
+  font-size: 65px;
   text-decoration: underline;
 }
 #about {
@@ -183,6 +183,7 @@ body {
   position: fixed;
   max-height: 100vh;
   overflow-y: auto;
+  overflow-x: auto;
   display: none;
 }
 .container div {
@@ -211,11 +212,11 @@ body {
   cursor: text;
 }
 #display {
-  width: 64vw;
-  padding: 4vh 3vw;
+  width: 62vw;
+  /* padding: 4vh 3vw; */
   height: 92vh;
   display: inline-block;
-  padding-left: 5vw;
+  padding-left: 2vw;
 }
 #works {
   margin: 0.5vh 0px;
@@ -280,7 +281,7 @@ body {
 
 .projects a {
   /* 30px is the gutter size in magic grid */
-  width: calc(0- 25px);
+  width: calc(49%- 25px);
   /* 49% avoids a weird single column on some wide screens */
   display: flex;
   flex-wrap: wrap;
@@ -346,8 +347,9 @@ body {
   --height: 50vh;
 }
 ::-webkit-scrollbar {
-  width: 5px;
-  height: 5px;
+  width: 2px;
+  height: 2px;
+  background-color: transparent;
 }
 ::-webkit-scrollbar-track {
   background: #fff;
@@ -390,10 +392,8 @@ body {
   }
   #display {
     width: 90vw;
-    padding: 4vh 5vw;
     height: auto;
     display: inline-block;
-    padding-left: 5vw;
   }
   #footer {
     text-align: center;
@@ -402,6 +402,11 @@ body {
     width: 90vw;
     padding: 0px 5vw;
   }
+
+  #work_container {
+    width: 90vw;
+  }
+
   #middle table {
     width: 80%;
   }
