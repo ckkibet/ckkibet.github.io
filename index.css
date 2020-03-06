@@ -235,6 +235,7 @@ body {
   font-size: 60px;
   text-decoration: underline;
   font-family: "Josefin Sans", sans-serif;
+  padding-left: 15px;
 }
 .container p {
   font-size: 21px;
@@ -275,14 +276,14 @@ body {
 
 .projects {
   margin-left: -15px;
-  /* align section w/ heading above */
 }
 
 .projects a {
   /* 30px is the gutter size in magic grid */
-  width: calc(49% - 30px);
+  width: calc(0- 25px);
   /* 49% avoids a weird single column on some wide screens */
   display: flex;
+  flex-wrap: wrap;
   text-decoration: none;
 }
 
@@ -426,4 +427,8 @@ body {
 
 .projects section {
   background: rgb(20, 20, 20);
+}
+
+.display h1 {
+  padding-left: 0px;
 }
