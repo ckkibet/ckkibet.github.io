@@ -212,7 +212,7 @@ body {
   cursor: text;
 }
 #display {
-  width: 62vw;
+  /* width: 62vw; */
   /* padding: 4vh 3vw; */
   height: 92vh;
   display: inline-block;
