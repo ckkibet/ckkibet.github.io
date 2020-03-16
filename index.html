@@ -7,10 +7,11 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Clement.</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flexboxgrid/6.3.1/flexboxgrid.min.css"
+        type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Comfortaa:700" rel="stylesheet">
     <script src="https://code.jquery.com/jquery-3.3.1.min.js"
         integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
-    <!-- <script src="https://unpkg.com/magic-grid/dist/magic-grid.min.js"></script> -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css"
         integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
     <link rel="stylesheet" href="index.css">
@@ -38,17 +39,18 @@
         </div>
         <table>
             <tr>
-                <td class="animated zoomIn" style="animation-delay:2.2s;"><a href="https://github.com/ckkibet"
+                <td class="animated zoomIn" style="animation-delay:2.2s;"><a href="https://github.com/ckkibet" target="_blank"
                         class="social"><i class="fab fa-github"></i></a></td>
-                <td class="animated zoomIn" style="animation-delay:2.4s;"><a href="mailto:clemkibet@gmail.com"
+                <td class="animated zoomIn" style="animation-delay:2.4s;"><a href="mailto:clemkibet@gmail.com" target="_blank"
                         class="social"><i class="fas fa-at"></i></a>
                 </td>
                 <td class="animated zoomIn" style="animation-delay:2.6s;"><a
-                        href="https://www.linkedin.com/in/clemkibet/" class="social"><i class="fab fa-linkedin"></i></a>
+                        href="https://www.linkedin.com/in/clemkibet/" target="_blank" class="social"><i class="fab fa-linkedin"></i></a>
                 </td>
             </tr>
         </table>
     </div>
+
     <div id="work_container" class="container">
         <div onclick="closework()"><i class="fas fa-angle-right"></i></div>
         <div id="display">
@@ -60,9 +62,7 @@
                             <div class="section_title">Android-ANPR</div>
                             <div class="about_section">
                                 <span style="display:block;">An Android Application build off of Google's OCR to
-                                    recognize, read
-                                    and store
-                                    number plates and other details. </span>
+                                    recognize, read and store number plates and other details. </span>
                             </div>
                             <div class="bottom_section">
                                 <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; Java</span>
@@ -136,33 +136,7 @@
     <div id="footer">
         made on earth by hand <br>
     </div>
-    <!-- <script>
-        const magicProjectsGrid = new MagicGrid({
-            container: "#works_section",
-            animate: false,
-            gutter: 30, // default gutter size
-            static: true,
-            useMin: false,
-            maxColumns: 3,
-            useTransform: true
-        });
 
-        const magicForksGrid = new MagicGrid({
-            container: "#forks_section",
-            animate: false,
-            gutter: 30, // default gutter size
-            static: true,
-            useMin: false,
-            maxColumns: 3,
-            useTransform: true
-        });
-
-        $("document").ready(() => {
-            magicProjectsGrid.listen();
-            magicForksGrid.listen();
-
-
-        }); -->
     </script>
     <script src="index.js" type="text/javascript"></script>
     <script src="particles.js"></script>
